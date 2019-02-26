@@ -14,7 +14,9 @@ const NavMenu = props => {
       <Menu.Item as={Link} to="/about">
         About Me
       </Menu.Item>
-      <Menu.Item>Projects</Menu.Item>
+      <Menu.Item as={Link} to="/projects">
+        Projects
+      </Menu.Item>
     </Menu>
   );
 };

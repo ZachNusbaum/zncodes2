@@ -5,6 +5,7 @@ import { Container } from 'semantic-ui-react';
 import Menu from '../Menu';
 import PostsContainer from '../../containers/Posts';
 import AboutContainer from '../../containers/About';
+import ProjectsContainer from '../../containers/Projects';
 
 const Placeholder = () => <div>Placeholder</div>;
 
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/" exact component={Placeholder} />
             <Route path="/posts" component={PostsContainer} />
             <Route path="/about" component={AboutContainer} />
+            <Route path="/projects" component={ProjectsContainer} />
           </div>
         </Router>
       </Container>
